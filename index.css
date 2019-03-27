@@ -1,0 +1,10 @@
+/*  	Spans are inline by default, but I want the time/type to display on the same line
+	which is basically inline-block.
+	For example:
+	[36 days] [4 hours] [46 minutes] [5 seconds]
+	The brackets should always appear on the same line. Looks ugly if 5 appears on one line,
+	and then seconds appears below it.
+*/
+.countdown > span {
+  display: inline-block;
+}
