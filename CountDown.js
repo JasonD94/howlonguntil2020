@@ -8,7 +8,7 @@ window.onload = function() {
 	// or (year, monthIndex, day, hours, minutes, seconds). Reference:
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 	// https://www.epochconverter.com/
-	countDownFromTime(new Date(1556600400000), 'countDownDiv');
+	countDownFromTime(new Date('November 3, 2020 00:00:00'), 'countDownDiv');
 };
 
 function countDownFromTime(countDown, id) {
